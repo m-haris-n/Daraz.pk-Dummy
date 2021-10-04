@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1188px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.head-bar {
+    width: 100%;
+    height: 25px;
+    background-color: #e9e9e9;
+}
+
+.headtext {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Roboto-Regular, 'Helvetica Neue', Helvetica, Tahoma, Arial, Sans-serif;
+    padding: 0 16px 0 16px;
+    margin-top: 5px;
+}
+
+.headtext:hover {
+    text-decoration: underline;
+    color: #f36f36;
+    cursor: pointer;
+}
+
+.first-anchor {
+    display: inline-block;
+    color: #f36f36;
+    margin-left: 465px;
+}
+
+.rem {
+    color: black;
+}
+
+.logo {
+    float: left;
+    width: 135px;
+    height: 41px;
+    margin-top: 12px;
+}
+
+.search {
+    width: 688px;
+    height: 45px;
+    padding-left: 21px;
+    font-size: 14px;
+    margin: 11px 0 0 65px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+}
+
+.search-button {
+    width: 45px;
+    height: 44px;
+    background-color: #f36f36;
+    border-left: none;
+    border-style: none;
+    border-radius: 2px;
+    margin-left: -50px;
+}
+
+#app-icon {
+    float: right;
+    height: 45px;
+    margin-top: 10px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.slider {
+    height: 344px;
+    background-color: rgb(0, 78, 114);
+}
+
+#slider-list {
+    display: inline-block;
+    width: 199px;
+    height: 344px;
+    background-color: white;
+    border-right: 1px solid grey;
+}
+
+.slider-text {
+    font-size: 13px;
+    padding: 6px;
+    list-style: none;
+    margin-left: -35px;
+    color: #757575;
+    display: block;
+    justify-content: center;
+}
+
+.slider-text:hover {
+    color: #1a9cb7;
+    background-color: #e9e9e9;
+    cursor: pointer;
+}
+
+.list-items {
+    list-style: none;
+    /* display: inline-block; */
+    display: none;
+}
+
+.slider-text:hover .list-items {
+    display: inline-block;
+}
+
+#slider-image {
+    height: 344px;
+    float: right;
+}
+
+.buttons-1 {
+    display: inline-block;
+    width: 225px;
+    height: 40px;
+    background-color: white;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-right: 9px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons-text {
+    float: left;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.buttons-icons {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 4px;
+    float: left;
+}
+
+.buttons-1:hover {
+    box-shadow: 0 2px 2px 2px lightgrey;
+    color: blue;
+    cursor: pointer;
+}
+
+.flash-sale {
+    height: auto;
+    margin-top: -10px;
+    background-color: white;
+}
+
+.sale-bar {
+    height: 60px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#sale-text {
+    float: left;
+    font-size: 14px;
+    margin: 20px 0 0 20px;
+    color: #ff6801;
+}
+
+.timer {
+    display: inline-block;
+    background-color: #ff6801;
+    width: 40px;
+    height: 35px;
+    margin: 12px 5px;
+    border-radius: 2px;
+}
+
+.sale-button {
+    float: right;
+    margin: 12px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #ff6801;
+    border-radius: 2px;
+    color: #ff6801;
+    font-size: 14px;
+}
+
+.sale-box {
+    display: inline-block;
+    width: 188px;
+    height: 290px;
+    background-color: white;
+    margin:10px 6px 10px 0;
+}
+
+.sale-box:hover {
+    box-shadow: 0 2px 4px 0 #ccc;
+    cursor: pointer;
+}
+
+.sale-img {
+    width: 188px;
+    height: 188px;
+}
+
+.sale-box-text {
+    font-size: 14px;
+    margin-top: 0;
+    margin-left: 6px;
+    line-height: 18px;
+}
+
+.sale-price {
+    font-size: 18px;
+    color: #ff6801;
+    margin-top: -8px;
+    margin-left: 6px;
+    margin-bottom: 0px;
+    line-height: 18px;
+}
+
+.cut-price {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #9e9e9e;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 6px;
+}
+
+.disc-perc {
+    font-size: 12px;
+}
+
+.message {
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 50px;
+    box-shadow: 0 5px 5px 2px grey;
+    color: darkblue;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.collection-box {
+    float: left;
+    width: 296px;
+    height: 146px;
+    background-color: white;
+    margin: 0;
+    color: black;
+    font-size: 14px;
+}
+
+.row-1 .collection-box {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.row-1 .collection-box:last-child{
+    border-right: none;
+}
+
+.row-2 .collection-box {
+    border-right: 1px solid #ccc;
+}
+
+.row-2 .collection-box:last-child{
+    border-right: none;
+}
+
+.collection-box a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.collection-upper-text {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.collection-lower-text {
+    text-decoration: none;
+    color: #424242;
+    font-size: 12px;
+    text-align: center;
+}
+
+.collection-img {
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+}
+
+.collection-box:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+    position: relative;
+}
+
+.daraz-mall {
+    height: auto;
+    margin-top: -15px;
+}
+
+.mall-items {
+    display: inline-block;
+    width: 188px;
+    height: 270px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.mall-img {
+    width: 100%;
+}
+
+.mall-items:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
+}
+
+.mall-logo-holder {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+    position: relative;
+    top: -26px;
+    left: 68px;
+}
+
+.mall-logo {
+    width: 44px;
+    height: 44px;
+    margin: 4px;
+}
+
+.mall-upper-text {
+    font-size: 14px;
+    color: black;
+    margin: -20px 0 0 0;
+    text-align: center;
+}
+
+.mall-lower-text {
+    font-size: 12px;
+    color: #424242;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer-1 {
+    height: 350px;
+    margin-top: 50px;
+    background-color: #2e2e54;
+}
+
+.footer-2 {
+    height: 220px;
+    background-color: white;
+}
+
+.footer-3 {
+    height: 782px;
+    background-color: #f1f1f1;
+}
